@@ -235,7 +235,6 @@ structural_coq_prover/
 ├── data/                  # Configuration and test data
 ├── config.json           # Main configuration file
 ├── config_helper.py      # Configuration management tool
-└── coq_server.py         # FastAPI server for proof generation
 ```
 
 For detailed instructions on each component, see the README files in the respective subdirectories.
