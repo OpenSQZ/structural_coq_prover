@@ -1,0 +1,17 @@
+*.pyc
+__pycache__
+*/__pycache__
+*.vo
+*.vos
+*.vok
+*.aux
+*.glob
+prompts.txt
+prompts.jsonl
+proof_log.jsonl
+prompt_response.jsonl
+temp_coq*
+prompt*.jsonl
+*proof_log*
+../*.jsonl
+../temp_coq*

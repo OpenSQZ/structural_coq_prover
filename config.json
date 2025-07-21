@@ -1,0 +1,67 @@
+{
+    "paths":
+    {
+      "coqc_path": "path/to/coq/bin/coqc",
+      "coqtop_path": "path/to/coq/bin/coqtop",
+      "proof_log_dir": "./data/proof_logs",
+      "extra_log_dir": "./data/extra_logs",
+      "system_log_dir": "./data/system_logs",
+      "def_table_path": "path/to/def_table.jsonl",
+      "ps_table_path": "path/to/ps_table.jsonl",
+      "tokenizer_path": "path/to/tokenizer.json",
+      "emb_model_path": "path/to/models--Linq-AI-Research--Linq-Embed-Mistral",
+      "emb_data_path": "path/to/def_table_emb.jsonl",
+      "state_explanation_model_path": "path/to/models--Qwen--Qwen2.5-32B-Instruct",
+      "ft_data_dir": "path/to/coq/ft_data/",
+      "temp_dir": "./data/temp_coq",
+      "output_data": "./data/",
+      "coqc_error_log": "./data/",
+      "dep_file": "./data/all_deps.json",
+      "ordered_data_file": "./data/sorted_order_all.json",
+      "data_dir": "path/to/coq_data",
+      "patch_prefix": "path/to/coq_data_patch/",
+      "package_mapping": "./data/package_mapping.json",
+      "hoqc_path": "path/to/coq-hott/hoqc",
+      "ft_model_path": "path/to/your/model",
+      "theorem2proof_file": "./data/theorems.txt"
+    },
+    "flags": 
+    {
+      "if_background": false,
+      "if_use_intuition": true,
+      "simplify_ps": true,
+      "plain_prompt": false,
+      "state_encode": false,
+      "use_origin": "mixed",
+      "if_explanation": true,
+      "reconsider_mode": "hierarchical",
+      "resume_mode": true,
+      "use_api": true,
+      "use_ft_model": false,
+      "if_reorganize_concisely": false,
+      "new_theorem_mode": false,
+      "ablation_mode": true,
+      "ablation_proof_mode": "no_ref_ps_all",
+      "ablation_scope": "def_only",
+      "if_strategy": false,
+      "if_def": true,
+      "if_retrieve": true,
+      "if_proof_trace": true,
+      "if_public_notes": true
+    },
+    "params": 
+    {
+      "total_shards":1,
+      "concept_num": 3,
+      "blind_num": 3,
+      "beam_width": 3,
+      "max_depth": 15,
+      "max_states_workers": 20,
+      "max_theorems_workers": 10,
+      "model_use": "Deepseek",
+      "max_attempts": 1,
+      "max_retries": 3,
+      "theorem_parallel_num": 5,
+      "max_coqc_workers": 150
+    }
+}

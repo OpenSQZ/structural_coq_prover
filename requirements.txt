@@ -1,0 +1,9 @@
+json5
+json-repair
+openai
+tqdm
+numpy
+pandas
+tenacity
+transformers==4.45.2
+torch==2.3.0

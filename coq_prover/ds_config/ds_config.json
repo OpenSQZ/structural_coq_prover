@@ -1,0 +1,27 @@
+{
+  "train_micro_batch_size_per_gpu": 1,
+  "bf16": {
+    "enabled": "true"
+  },
+  "gradient_clipping": 1,
+  "zero_optimization": {
+    "stage": 2,
+    "allgather_partitions": true,
+    "allgather_bucket_size": 5e8,
+    "reduce_scatter": true,
+    "reduce_bucket_size": 5e8,
+    "overlap_comm": true,
+    "contiguous_gradients": true
+  },
+  "aio": {
+    "block_size": 1048576,
+    "queue_depth": 8,
+    "thread_count": 1,
+    "single_submit": false,
+    "overlap_events": true
+  },
+  "wandb": {
+    "enabled": "true",
+    "project": "entity-mask"
+  }
+}

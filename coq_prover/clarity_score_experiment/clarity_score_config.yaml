@@ -1,0 +1,30 @@
+default:
+  random_seed: 42
+  complete_path: "path/to/your/data.jsonl"
+  save_path: "clarity_score_experiment/data/clarity_score_result/"
+  
+  start_idx: 0
+  end_idx: null
+  def_num_per_item: 3
+  concurrent_limit: 100
+  save_file_name: "result_global_def.jsonl"
+  case_target: "global_def_only"
+  
+  cases:
+    - no_ref_ps_all
+    - no_ref_ps_origin
+    - origin_only
+    - internal_only
+    - intuition_only
+    - origin_internal
+    - origin_intuition
+    - internal_intuition
+    - origin_internal_intuition
+    - zh_explanation
+    - base
+    - base_simple
+    
+  except_cases:
+    - zh_explanation
+    - base
+    - base_simple

@@ -1,0 +1,395 @@
+{
+    "coq-hott.8.11": [
+        "-R theories HoTT",
+        "-Q contrib HoTT",
+        "-R coq/theories HoTT"
+    ],
+    "coq-tactician-stdlib.8.11.dev": [
+        "-R theories Coq",
+        "-R plugins Coq",
+        "-Q user-contrib/Ltac2 Ltac2"
+    ],
+    "coq-antivalence.1.0.1": [
+        "-R theories Antivalence",
+        "-I src"
+    ],
+    "coq-bbv.1.3": [
+        "-Q src/bbv bbv"
+    ],
+    "coq-bertrand.8.12.0": [
+        "-R . Bertrand"
+    ],
+    "coq-buchberger.8.11.0": [
+        "-R theories Buchberger"
+    ],
+    "coq-color.1.8.2": [
+        "-R . CoLoR"
+    ],
+    "coq-coqoban.8.13.0": [
+        "-R . Coqoban"
+    ],
+    "coq-coqprime.1.0.5": [
+        "-R src/Coqprime Coqprime"
+    ],
+    "coq-coqtail.8.14": [
+        "-R . Coqtail"
+    ],
+    "coq-coqutil.0.0.2": [
+        "-R . coqutil"
+    ],
+    "coq-corn.8.16.0": [
+        "-R . CoRN"
+    ],
+    "coq-dpdgraph.0.6.7": [
+        "-I .",
+        "-R . dpdgraph"
+    ],
+    "coq-error-handlers.1.2.0": [
+        "-R src ErrorHandlers"
+    ],
+    "coq-ext-lib.0.11.7": [
+        "-Q theories ExtLib"
+    ],
+    "coq-fourcolor.1.2.5": [
+        "-R theories fourcolor"
+    ],
+    "coq-function-ninjas.1.0.0": [
+        "-R . FunctionNinjas"
+    ],
+    "coq-functional-algebra.1.0.2": [
+        "-R . functional_algebra"
+    ],
+    "coq-gappa.1.5.3": [
+        "-R src Gappa",
+        "-I src"
+    ],
+    "coq-hoare-tut.8.11.1": [
+        "-R . HoareTut"
+    ],
+    "coq-hydra-battles.0.4": [
+        "-R _build/default/theories/ordinals hydras",
+        "-R _build/default/theories/additions additions",
+        "-R _build/default/exercises hydra_exercises"
+    ],
+    "coq-io.4.0.0": [
+        "-R src Io"
+    ],
+    "coq-iris.3.4.0": [
+        "-R iris iris"
+    ],
+    "coq-itree.4.0.0": [
+        "-R _build/default/theories ITree"
+    ],
+    "coq-jmlcoq.8.15.0": [
+        "-Q theories JML"
+    ],
+    "coq-libhyps.2.0.6": [
+        "-R LibHyps LibHyps"
+    ],
+    "coq-list-string.2.1.2": [
+        "-R src ListString"
+    ],
+    "coq-ltac-iter.1.1.2": [
+        "-R theories LtacIter",
+        "-I src"
+    ],
+    "coq-math-classes.8.15.0": [
+        "-R . MathClasses"
+    ],
+    "coq-mathcomp-ssreflect.1.14.0": [
+        "-I mathcomp",
+        "-R mathcomp mathcomp"
+    ],
+    "coq-menhirlib.20190924": [
+        "-R coq-menhirlib/src MenhirLib"
+    ],
+    "coq-metacoq-template.1.0~beta2+8.11": [
+        "-R template-coq/theories MetaCoq.Template"
+    ],
+    "coq-metacoq-safechecker.1.0~beta2+8.11": [
+        "-R safechecker/theories MetaCoq"
+    ],
+    "coq-metacoq-translations.1.0~beta2+8.11": [
+        "-R translations MetaCoq.SafeChecker"
+    ],
+    "coq-paco.4.1.1": [
+        "-R src Paco"
+    ],
+    "coq-paramcoq.1.1.3+coq8.11": [
+        "-R theories Param",
+        "-R src Param",
+        "-I src"
+    ],
+    "coq-poltac.0.8.11": [
+        "-R . PolTac"
+    ],
+    "coq-printf.2.0.0": [
+        "-Q theories Printf"
+    ],
+    "coq-qarith-stern-brocot.8.12.0": [
+        "-R . QArithSternBrocot"
+    ],
+    "coq-record-update.0.3.1": [
+        "-Q src RecordUpdate"
+    ],
+    "coq-reduction-effects.0.1.4": [
+        "-R . ReductionEffect"
+    ],
+    "coq-rewriter.0.0.2": [
+        "-R src/Rewriter Rewriter"
+    ],
+    "coq-smpl.8.11": [
+        "-R . Smpl"
+    ],
+    "coq-stalmarck.8.11.0": [
+        "-I .",
+        "-R . Stalmarck"
+    ],
+    "coq-stdpp.1.5.0": [
+        "-Q theories stdpp"
+    ],
+    "coq-simple-io.1.8.0": [
+        "-R . SimpleIO"
+    ],
+    "coq-haskell.1.0.0": [
+        "-R src Hask"
+    ],
+    "coq-aac-tactics.8.11.0": [
+        "-Q theories AAC_tactics"
+    ],
+    "coq-alea.8.11.0": [
+        "-R . ALEA"
+    ],
+    "coq-relation-algebra.1.7.4": [
+        "-R . RelationAlgebra"
+    ],
+    "coq-autosubst.1.7": [
+        "-R . Autosubst"
+    ],
+    "coq-ceres.0.4.0": [
+        "-R . Ceres"
+    ],
+    "coq-chapar.8.13.0": [
+        "-Q coq Chapar"
+    ],
+    "coq-cunit.1.0.0": [
+        "-R src CUnit"
+    ],
+    "coq-list-plus.1.1.0": [
+        "-R src ListPlus"
+    ],
+    "coq-moment.1.2.1": [
+        "-R src Moment"
+    ],
+    "coq-ott.0.33": [
+        "-R coq Ott"
+    ],
+    "coq-qcert.2.2.0": [
+        "-R compiler/core Qcert"
+    ],
+    "coq-quickchick.1.6.4": [
+        "-Q src QuickChick"
+    ],
+    "coq-compcert.3.7~coq-platform~open-source": [
+        "-R . compcert"
+    ],
+    "coq-smtcoq.2.0+8.11": [
+        "-R src SMTCoq"
+    ],
+    "coq-equations.1.2.4+8.11": [
+        "-I src",
+        "-I test-suite",
+        "-Q theories Equations",
+        "-I theories",
+        "-I examples"
+    ],
+    "coq-generic-environments.8.11.0": [
+        "-R . GenericEnvironments"
+    ],
+    "coq-bignums.8.11.0": [
+        "-I plugin",
+        "-R . Bignums"
+    ],
+    "coq-almost-full.8.14.0": [
+        "-Q theories AlmostFull"
+    ],
+    "coq-atbr.8.11.0": [
+        "-R theories ATBR",
+        "-I src"
+    ],
+    "coq-geometric-algebra.0.8.11": [
+        "-R . GeometricAlgebra"
+    ],
+    "coq-giskard.1.0": [
+        "-Q theories Giskard"
+    ],
+    "coq-huffman.8.12.0": [
+        "-I src",
+        "-Q theories Huffman"
+    ],
+    "coq-mi-cho-coq.1.0.0": [
+        "-R src/michocoq Michocoq",
+        "-R src/michocott Michocott"
+    ],
+    "coq-flocq.3.4.3": [
+        "-R src Flocq"
+    ],
+    "coq-iterable.1.0.0": [
+        "-R . Iterable"
+    ],
+    "coq-gaia-theory-of-sets.1.15": [
+        "-Q _build/default/theories gaia"
+    ],
+    "coq-gaia-ordinals.1.15": [
+        "-Q _build/default/theories gaia"
+    ],
+    "coq-coqeal.1.1.0": [
+        "-R . CoqEAL"
+    ],
+    "coq-deriving.0.1.0": [
+        "-Q theories deriving"
+    ],
+    "coq-mathcomp-bigenough.1.0.1": [
+        "-R . mathcomp"
+    ],
+    "coq-bits.1.1.0": [
+        "-R src Bits"
+    ],
+    "coq-gaia-schutte.1.15": [
+        "-Q _build/default/theories gaia"
+    ],
+    "coq-mathcomp-finmap.1.5.1": [
+        "-R . mathcomp"
+    ],
+    "coq-mathcomp-multinomials.1.5.5": [
+        "-R _build/default/src SsrMultinomials"
+    ],
+    "coq-mathcomp-fingroup.1.14.0": [
+        "-I mathcomp",
+        "-R mathcomp mathcomp"
+    ],
+    "coq-gaia-numbers.1.15": [
+        "-Q _build/default/theories gaia"
+    ],
+    "coq-mathcomp-algebra.1.14.0": [
+        "-I mathcomp",
+        "-R mathcomp mathcomp"
+    ],
+    "coq-mathcomp-solvable.1.14.0": [
+        "-I mathcomp",
+        "-R mathcomp mathcomp"
+    ],
+    "coq-mathcomp-character.1.14.0": [
+        "-I mathcomp",
+        "-R mathcomp mathcomp"
+    ],
+    "coq-mathcomp-field.1.14.0": [
+        "-I mathcomp",
+        "-R mathcomp mathcomp"
+    ],
+    "coq-mathcomp-real-closed.1.1.2": [
+        "-R . mathcomp"
+    ],
+    "coq-mathcomp-odd-order.1.14.0": [
+        "-R . odd_order"
+    ],
+    "coq-gaia-stern.1.15": [
+        "-Q _build/default/theories gaia"
+    ],
+    "coq-dijkstra.0.1.0": [
+        "-R . Dijkstra"
+    ],
+    "coq-mathcomp-apery.1.0.1": [
+        "-R . mathcomp"
+    ],
+    "coq-regexp-brzozowski.1.0": [
+        "-Q theories RegexpBrzozowski"
+    ],
+    "coq-reglang.1.1.3": [
+        "-Q theories RegLang"
+    ],
+    "coq-mathcomp-abel.1.2.1": [
+        "-R . Abel"
+    ],
+    "coq-bytestring.0.9.0": [
+        "-Q theories bedrock"
+    ],
+    "coq-hammer-tactics.1.3.2+8.11": [
+        "-R theories Hammer",
+        "-I src/lib",
+        "-I src/tactics",
+        "-I src/plugin"
+    ],
+    "coq-hammer.1.3.2+8.11": [
+        "-R theories Hammer",
+        "-I src/lib",
+        "-I src/tactics",
+        "-I src/plugin"
+    ],
+    "coq-high-school-geometry.8.12.0": [
+        "-R . HighSchoolGeometry"
+    ],
+    "coq-extructures.0.3.1": [
+        "-R theories extructures"
+    ],
+    "coq-chick-blog.1.0.1": [
+        "-R . ChickBlog"
+    ],
+    "coq-io-system.2.4.1": [
+        "-R src Io.System"
+    ],
+    "coq-io-hello-world.1.2.0": [
+        "-R src HelloWorld"
+    ],
+    "coq-pocklington.8.12.0": [
+        "-R theories Pocklington"
+    ],
+    "coq-goedel.8.13.0": [
+        "-R theories Goedel"
+    ],
+    "coq-rsa.8.8.0": [
+        "-R . RSA"
+    ],
+    "coq-semantics.8.14.0": [
+        "-R . Semantics"
+    ],
+    "coq-iris-heap-lang.3.4.0": [
+        "-R iris_heap_lang iris.heap_lang"
+    ],
+    "coq-itree-io.0.1.0": [
+        "-R src ITree"
+    ],
+    "coq-coquelicot.3.2.0": [
+        "-R theories Coquelicot"
+    ],
+    "coq-metacoq-pcuic.1.0~beta2+8.11": [
+        "-R pcuic MetaCoq.PCUIC"
+    ],
+    "coq-metacoq-erasure.1.0~beta2+8.11": [
+        "-R erasure MetaCoq.Erasure"
+    ],
+    "coq-jsast.2.0.0": [
+        "-R coq JsAst"
+    ],
+    "coq-flocq-quickchick.1.0.2": [
+        "-R . FlocqQuickChick"
+    ],
+    "coq-iris-string-ident.0.1.0": [
+        "-Q theories iris_string_ident"
+    ],
+    "coq-tlc.20200328": [
+        "-R src TLC"
+    ],
+    "coq-topology.10.0.1": [
+        "-R _build/default/theories/Topology Topology"
+    ],
+    "coq-type-infer.0.1.0": [
+        "-R . TypeInfer"
+    ],
+    "coq-vst.2.6": [
+        "-R . VST"
+    ],
+    "coq-zorns-lemma.10.0.1": [
+        "-R _build/default/theories/ZornsLemma ZornsLemma"
+    ]
+}
