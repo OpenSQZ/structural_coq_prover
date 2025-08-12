@@ -5,5 +5,5 @@ tqdm
 numpy
 pandas
 tenacity
-transformers==4.45.2
-torch==2.3.0
+transformers
+torch
